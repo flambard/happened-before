@@ -47,6 +47,9 @@
 (defun compare (stamp-a stamp-b)
   (compare-event-trees (stamp-event-tree stamp-a) (stamp-event-tree stamp-b)))
 
+(defun happened-before (stamp-a stamp-b)
+  (not (compare stamp-b stamp-a)))
+
 
 (defun inflate (i-tree e-tree)
   (cond ((integerp i-tree)

@@ -15,5 +15,6 @@
    #:receive
    #:sync
    #:compare
+   #:happened-before
 
    ))
