@@ -18,3 +18,24 @@
    #:happened-before
 
    ))
+
+
+(defpackage :lamport-timestamp
+  (:documentation "Implementation of Lamport timestamps.")
+  (:nicknames :hb-lt)
+  (:use :cl)
+  (:export
+
+   #:stamp
+   #:make-seed-stamp
+
+   #:fork
+   #:join
+   #:event
+   #:send
+   #:receive
+   #:sync
+   #:compare
+   #:happened-before
+
+   ))

@@ -15,4 +15,6 @@
             ((:file "packages")
              (:file "interval-tree-clock"
                     :depends-on ("packages"))
+             (:file "lamport-timestamp"
+                    :depends-on ("packages"))
              ))))
