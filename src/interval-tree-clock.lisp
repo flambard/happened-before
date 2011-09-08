@@ -41,7 +41,7 @@
   (event (join stamp-a stamp-b)))
 
 (defun sync (stamp-a stamp-b)
-  (fork (joinstamp-a stamp-b)))
+  (fork (join stamp-a stamp-b)))
 
 
 (defun compare (stamp-a stamp-b)
